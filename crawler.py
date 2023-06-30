@@ -44,8 +44,8 @@ def save_links_to_csv(links):
             writer.writerow([link])
 
 # Set up your API key and Custom Search Engine ID
-api_key = 'AIzaSyCepbPxdj9muR0UYLb1uFE88vXqC13y75Q'
-cse_id = 'b6b7afac2664c444e'
+api_key = ''
+cse_id = ''
 
 # Scrape YouTube channel links
 youtube_links = scrape_youtube_channels(api_key, cse_id)
